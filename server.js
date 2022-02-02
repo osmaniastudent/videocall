@@ -9,7 +9,7 @@ const path = require('path')
 const { AwakeHeroku } = require('awake-heroku');
 
 AwakeHeroku.add({
-    url: "https://cuckooapp.herokuapp.com"
+    url: "https://videosserver.herokuapp.com/"
 })
 
 app.use(express.static('./client/build'));
